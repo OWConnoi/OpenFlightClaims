@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "OpenFlightClaims",
+    "description": "Répertoire communautaire gratuit de liens officiels de réclamation auprès des compagnies aériennes."
+  },
+  "hero": {
+    "title": "Trouvez les liens officiels de réclamation",
+    "lede": "Sans intermédiaires. Sans commission. Open source."
+  },
+  "stats": {
+    "indexed": "{count} liens de compagnies aériennes · Maintenu par la communauté · Open source"
+  },
+  "search": {
+    "label": "Rechercher une compagnie",
+    "placeholder": "Rechercher par nom, code ou pays",
+    "indexed": "{count} liens de compagnies répertoriés",
+    "match": "{count} résultat",
+    "matches": "{count} résultats",
+    "statusFilter": "Statut",
+    "allStatuses": "Tous"
+  },
+  "empty": {
+    "title": "Trouvez un lien de réclamation",
+    "description": "Les résultats apparaissent ici après la recherche.",
+    "noMatchesTitle": "Aucun résultat",
+    "noMatchesDescription": "Essayez un autre nom ou ouvrez une issue pour ajouter un lien."
+  },
+  "actions": {
+    "openClaim": "Ouvrir le lien",
+    "reportBroken": "Signaler un lien cassé",
+    "suggestUpdate": "Suggérer une mise à jour",
+    "addAirline": "Ajouter une compagnie",
+    "viewDetails": "Détails"
+  },
+  "notice": {
+    "text": "Les liens doivent être vérifiés sur le site officiel de la compagnie. OpenFlightClaims ne constitue pas un avis juridique."
+  },
+  "status": {
+    "active": "Actif",
+    "reportedBroken": "Signalé cassé",
+    "unknownStatus": "Inconnu",
+    "activeDescription": "Disponible dans le répertoire.",
+    "reportedBrokenDescription": "Signalé comme cassé ou obsolète.",
+    "unknownDescription": "Statut incertain ou à vérifier."
+  },
+  "footer": {
+    "description": "OpenFlightClaims est un répertoire communautaire de liens officiels de réclamation.",
+    "github": "GitHub",
+    "addAirline": "Ajouter une compagnie",
+    "reportBroken": "Signaler un lien",
+    "contributing": "Contribuer",
+    "translations": "Traduire",
+    "api": "API",
+    "license": "License",
+    "trademarks": "Trademarks"
+  },
+  "theme": {
+    "label": "Thème",
+    "system": "Système",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "nav": {
+    "guides": "Guides",
+    "eligibility": "Assistant éligibilité",
+    "claimTemplate": "Modèle de réclamation"
+  },
+  "home": {
+    "popularTitle": "Compagnies populaires"
+  },
+  "airlineDetail": {
+    "backToDirectory": "← Retour au répertoire",
+    "claimDescription": "Ouvrez la page officielle de la compagnie pour les réclamations, remboursements, plaintes ou droits des passagers.",
+    "officialWebsite": "Site officiel",
+    "contribute": "Améliorer cette fiche",
+    "accuracyNote": "OpenFlightClaims ne constitue pas un avis juridique. Les liens peuvent changer — vérifiez sur le site officiel de la compagnie."
+  },
+  "guides": {
+    "eyebrow": "Guide de sources officielles",
+    "backToDirectory": "← Retour au répertoire",
+    "disclaimer": "Ce guide est un résumé basé sur des sources officielles. Il ne constitue pas un avis juridique. Les règles peuvent changer.",
+    "officialSources": "Sources officielles"
+  },
+  "tools": {
+    "eyebrow": "Outil local",
+    "eligibilityTitle": "Assistant éligibilité",
+    "eligibilityDescription": "Assistant conservateur pour les scénarios courants de perturbation de vol. Aucune donnée stockée.",
+    "claimTemplateTitle": "Générateur de réclamation",
+    "claimTemplateDescription": "Créez un message de réclamation dans votre navigateur et copiez-le dans la page officielle de la compagnie.",
+    "noStorageDisclaimer": "Rien n'est envoyé à OpenFlightClaims. L'assistant fonctionne dans votre navigateur.",
+    "templateDisclaimer": "Ce générateur n'envoie pas d'e-mail et ne stocke pas de données personnelles.",
+    "region": "Région réglementaire",
+    "disruptionType": "Type de perturbation",
+    "airline": "Compagnie",
+    "selectAirline": "Sélectionnez une compagnie",
+    "departureRegion": "Région de départ",
+    "arrivalRegion": "Région d'arrivée",
+    "delayLength": "Retard à l'arrivée finale",
+    "distanceBand": "Distance",
+    "reason": "Raison donnée par la compagnie",
+    "other": "Autre",
+    "delay": "Retard",
+    "cancellation": "Annulation",
+    "deniedBoarding": "Refus d'embarquement",
+    "downgrade": "Déclassement",
+    "baggageOther": "Bagage / autre",
+    "underTwoHours": "Moins de 2 heures",
+    "twoToThreeHours": "2 à 3 heures",
+    "threeToFourHours": "3 à 4 heures",
+    "fourPlusHours": "Plus de 4 heures",
+    "under1500": "Moins de 1 500 km",
+    "between1500And3500": "1 500–3 500 km",
+    "over3500": "Plus de 3 500 km",
+    "airlineControl": "Sous contrôle de la compagnie",
+    "extraordinary": "Circonstances extraordinaires",
+    "safety": "Problème de sécurité",
+    "unknown": "Inconnu",
+    "likely": "Probable",
+    "possibly": "Possiblement",
+    "unlikely": "Improbable",
+    "passengerName": "Nom du passager (facultatif)",
+    "flightNumber": "Numéro de vol",
+    "bookingReference": "Référence de réservation (facultatif)",
+    "travelDate": "Date du voyage",
+    "route": "Itinéraire",
+    "scheduledArrival": "Arrivée prévue",
+    "actualArrival": "Arrivée réelle",
+    "shortDescription": "Description courte",
+    "requestedOutcome": "Résultat demandé",
+    "attachments": "Pièces jointes",
+    "generatedMessage": "Message généré",
+    "copy": "Copier le message",
+    "clear": "Effacer",
+    "copied": "Copié dans le presse-papiers."
+  }
+}

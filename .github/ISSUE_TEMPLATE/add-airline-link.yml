@@ -1,0 +1,33 @@
+name: Add airline link
+description: Propose a new official airline claim link.
+title: "Add airline link: "
+labels: ["data", "airline-link"]
+body:
+  - type: input
+    id: airline_name
+    attributes:
+      label: Airline name
+      description: Use the official airline brand name.
+    validations:
+      required: true
+  - type: input
+    id: claim_url
+    attributes:
+      label: Official claim URL
+      description: Link to the airline's own claim, refund, complaint, or passenger-rights page.
+    validations:
+      required: true
+  - type: input
+    id: airline_website
+    attributes:
+      label: Airline website
+      description: The airline's main website (helps us verify).
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Country, IATA/ICAO codes, or anything else helpful.
+    validations:
+      required: false

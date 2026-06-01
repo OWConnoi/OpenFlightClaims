@@ -1,0 +1,26 @@
+name: Update passenger rights knowledge
+description: Suggest corrections or additions for the Eligibility Helper / Claim Template.
+title: "Update passenger rights knowledge: "
+labels: ["data", "passenger-rights"]
+body:
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction or country
+      description: e.g. "EU261", "UK", "US DOT", "Oman"
+    validations:
+      required: true
+  - type: textarea
+    id: what_changed
+    attributes:
+      label: What changed?
+      description: Be specific about the rule, amount, or deadline that is wrong or missing.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources
+      description: Links to government or regulator pages (not airline or claims-management sites).
+    validations:
+      required: false

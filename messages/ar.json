@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "OpenFlightClaims",
+    "description": "دليل مجتمعي مجاني لروابط المطالبات الرسمية لشركات الطيران."
+  },
+  "hero": {
+    "title": "اعثر على روابط المطالبات الرسمية لشركات الطيران",
+    "lede": "بلا وسطاء. بلا عمولة. مفتوح المصدر."
+  },
+  "stats": {
+    "indexed": "{count} رابط لشركات الطيران · بإدارة المجتمع · مفتوح المصدر"
+  },
+  "search": {
+    "label": "ابحث عن شركة طيران",
+    "placeholder": "ابحث بالاسم أو الرمز أو البلد",
+    "indexed": "{count} رابط شركة طيران مدرج",
+    "match": "{count} نتيجة",
+    "matches": "{count} نتائج",
+    "statusFilter": "الحالة",
+    "allStatuses": "الكل"
+  },
+  "empty": {
+    "title": "اعثر على رابط مطالبة",
+    "description": "ستظهر النتائج هنا بعد البحث.",
+    "noMatchesTitle": "لا توجد نتائج",
+    "noMatchesDescription": "جرّب اسمًا آخر أو افتح بلاغًا لإضافة رابط."
+  },
+  "actions": {
+    "openClaim": "فتح الرابط",
+    "reportBroken": "الإبلاغ عن رابط معطل",
+    "suggestUpdate": "اقتراح تحديث",
+    "addAirline": "إضافة شركة طيران",
+    "viewDetails": "تفاصيل"
+  },
+  "notice": {
+    "text": "يجب التحقق من الروابط عبر الموقع الرسمي لشركة الطيران. OpenFlightClaims ليس استشارة قانونية."
+  },
+  "status": {
+    "active": "نشط",
+    "reportedBroken": "مُبلغ عن تعطله",
+    "unknownStatus": "غير معروف",
+    "activeDescription": "متاح في الدليل.",
+    "reportedBrokenDescription": "تم الإبلاغ عنه كمعطل أو قديم.",
+    "unknownDescription": "حالة غير واضحة أو تحتاج مراجعة."
+  },
+  "footer": {
+    "description": "OpenFlightClaims دليل مجتمعي مفتوح لروابط المطالبات الرسمية.",
+    "github": "GitHub",
+    "addAirline": "أضف شركة طيران",
+    "reportBroken": "أبلغ عن رابط",
+    "contributing": "المساهمة",
+    "translations": "الترجمة",
+    "api": "API",
+    "license": "License",
+    "trademarks": "Trademarks"
+  },
+  "theme": {
+    "label": "السمة",
+    "system": "النظام",
+    "light": "فاتح",
+    "dark": "داكن"
+  },
+  "language": {
+    "label": "اللغة"
+  },
+  "nav": {
+    "guides": "الأدلة",
+    "eligibility": "مساعد الأهلية",
+    "claimTemplate": "نموذج المطالبة"
+  },
+  "home": {
+    "popularTitle": "شركات الطيران الشائعة"
+  },
+  "airlineDetail": {
+    "backToDirectory": "← العودة إلى الدليل",
+    "claimDescription": "افتح صفحة شركة الطيران الرسمية للمطالبات أو الاسترداد أو الشكاوى أو حقوق المسافرين.",
+    "officialWebsite": "الموقع الرسمي",
+    "contribute": "تحسين هذا السجل",
+    "accuracyNote": "OpenFlightClaims ليس استشارة قانونية. قد تتغير الروابط — تحقق منها عبر الموقع الرسمي لشركة الطيران."
+  },
+  "guides": {
+    "eyebrow": "دليل المصادر الرسمية",
+    "backToDirectory": "← العودة إلى الدليل",
+    "disclaimer": "هذا الدليل ملخص مبني على مصادر رسمية. ليس استشارة قانونية. قد تتغير القوانين.",
+    "officialSources": "المصادر الرسمية"
+  },
+  "tools": {
+    "eyebrow": "أداة محلية",
+    "eligibilityTitle": "مساعد الأهلية",
+    "eligibilityDescription": "مساعد تقديري لسيناريوهات اضطراب الرحلات الشائعة. لا يُخزّن أي بيانات.",
+    "claimTemplateTitle": "مولّد المطالبة",
+    "claimTemplateDescription": "أنشئ رسالة مطالبة في متصفحك وانسخها إلى صفحة شركة الطيران الرسمية.",
+    "noStorageDisclaimer": "لا يُرسل أي شيء إلى OpenFlightClaims. المساعد يعمل في متصفحك.",
+    "templateDisclaimer": "هذا المولّد لا يرسل بريدًا إلكترونيًا ولا يخزّن بيانات شخصية.",
+    "region": "منطقة التنظيم",
+    "disruptionType": "نوع الاضطراب",
+    "airline": "شركة الطيران",
+    "selectAirline": "اختر شركة طيران",
+    "departureRegion": "منطقة المغادرة",
+    "arrivalRegion": "منطقة الوصول",
+    "delayLength": "التأخير عند الوصول النهائي",
+    "distanceBand": "نطاق المسافة",
+    "reason": "السبب المذكور من الشركة",
+    "other": "أخرى",
+    "delay": "تأخير",
+    "cancellation": "إلغاء",
+    "deniedBoarding": "رفض الصعود",
+    "downgrade": "تخفيض الدرجة",
+    "baggageOther": "أمتعة / أخرى",
+    "underTwoHours": "أقل من ساعتين",
+    "twoToThreeHours": "ساعتين إلى 3 ساعات",
+    "threeToFourHours": "3 إلى 4 ساعات",
+    "fourPlusHours": "أكثر من 4 ساعات",
+    "under1500": "أقل من 1,500 كم",
+    "between1500And3500": "1,500–3,500 كم",
+    "over3500": "أكثر من 3,500 كم",
+    "airlineControl": "تحت سيطرة الشركة",
+    "extraordinary": "ظروف استثنائية",
+    "safety": "مسألة سلامة",
+    "unknown": "غير معروف",
+    "likely": "محتمل",
+    "possibly": "ممكن",
+    "unlikely": "غير محتمل",
+    "passengerName": "اسم المسافر (اختياري)",
+    "flightNumber": "رقم الرحلة",
+    "bookingReference": "مرجع الحجز (اختياري)",
+    "travelDate": "تاريخ السفر",
+    "route": "المسار",
+    "scheduledArrival": "الوصول المجدول",
+    "actualArrival": "الوصول الفعلي",
+    "shortDescription": "وصف موجز",
+    "requestedOutcome": "النتيجة المطلوبة",
+    "attachments": "المرفقات",
+    "generatedMessage": "الرسالة المُنشأة",
+    "copy": "نسخ الرسالة",
+    "clear": "مسح",
+    "copied": "تم النسخ إلى الحافظة."
+  }
+}

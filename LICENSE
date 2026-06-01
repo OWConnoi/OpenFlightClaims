@@ -1,0 +1,25 @@
+OpenFlightClaims Multi-License Overview
+========================================
+
+This repository contains three distinct categories of intellectual property,
+each governed by a different license:
+
+1. Source code
+   Licensed under the GNU Affero General Public License v3.0 or later.
+   See LICENSE-CODE.md for the full license text.
+
+2. Airline-link dataset and structured data exports
+   Licensed under the Open Database License v1.0.
+   See LICENSE-DATA.md for the full license text.
+
+3. OpenFlightClaims name, logo, visual identity, and domain names
+   NOT licensed for reuse. All rights reserved.
+   See TRADEMARKS.md for the project trademark policy.
+
+Third-party airline names, logos, and trademarks belong to their respective
+owners. OpenFlightClaims does not claim ownership of any airline marks.
+
+For a human-readable explanation of how these licenses work together, see
+docs/licensing.md.
+
+This is not legal advice.

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "OpenFlightClaims",
+    "description": "ایئر لائن کے سرکاری کلیم لنکس کی مفت کمیونٹی ڈائریکٹری۔"
+  },
+  "hero": {
+    "title": "ایئر لائن کے سرکاری کلیم لنکس تلاش کریں",
+    "lede": "کوئی مڈل مین نہیں۔ کوئی کمیشن نہیں۔ اوپن سورس۔"
+  },
+  "stats": {
+    "indexed": "{count} ایئر لائن لنکس · کمیونٹی کے ذریعے · اوپن سورس"
+  },
+  "search": {
+    "label": "ایئر لائن تلاش کریں",
+    "placeholder": "نام، کوڈ، یا ملک سے تلاش کریں",
+    "indexed": "{count} ایئر لائن لنکس درج ہیں",
+    "match": "{count} نتیجہ",
+    "matches": "{count} نتائج",
+    "statusFilter": "حالت",
+    "allStatuses": "تمام"
+  },
+  "empty": {
+    "title": "کلیم لنک تلاش کریں",
+    "description": "تلاش کے بعد نتائج یہاں ظاہر ہوں گے۔",
+    "noMatchesTitle": "کوئی نتیجہ نہیں",
+    "noMatchesDescription": "دوسرا نام آزمائیں یا لنک شامل کرنے کے لیے ایشو کھولیں۔"
+  },
+  "actions": {
+    "openClaim": "لنک کھولیں",
+    "reportBroken": "خراب لنک رپورٹ کریں",
+    "suggestUpdate": "تبدیلی تجویز کریں",
+    "addAirline": "ایئر لائن شامل کریں",
+    "viewDetails": "تفصیلات"
+  },
+  "notice": {
+    "text": "لنکس کو ایئر لائن کی سرکاری ویب سائٹ پر چیک کریں۔ OpenFlightClaims قانونی مشورہ نہیں ہے۔"
+  },
+  "status": {
+    "active": "فعال",
+    "reportedBroken": "خراب رپورٹ",
+    "unknownStatus": "نامعلوم",
+    "activeDescription": "ڈائریکٹری میں دستیاب ہے۔",
+    "reportedBrokenDescription": "خراب یا پرانا رپورٹ کیا گیا۔",
+    "unknownDescription": "حالت غیر واضح یا جائزہ درکار ہے۔"
+  },
+  "footer": {
+    "description": "OpenFlightClaims سرکاری کلیم لنکس کی اوپن کمیونٹی ڈائریکٹری ہے۔",
+    "github": "GitHub",
+    "addAirline": "ایئر لائن شامل کریں",
+    "reportBroken": "خراب لنک رپورٹ",
+    "contributing": "حصہ ڈالیں",
+    "translations": "ترجمہ",
+    "api": "API",
+    "license": "License",
+    "trademarks": "Trademarks"
+  },
+  "theme": {
+    "label": "تھیم",
+    "system": "سسٹم",
+    "light": "لائٹ",
+    "dark": "ڈارک"
+  },
+  "language": {
+    "label": "زبان"
+  },
+  "nav": {
+    "guides": "گائیڈز",
+    "eligibility": "اہلیت معاون",
+    "claimTemplate": "کلیم سانچہ"
+  },
+  "home": {
+    "popularTitle": "مقبول ایئر لائنز"
+  },
+  "airlineDetail": {
+    "backToDirectory": "← ڈائریکٹری پر واپس جائیں",
+    "claimDescription": "کلیمز، ریفنڈ، شکایات، یا مسافر حقوق کے لیے ایئر لائن کا سرکاری صفحہ کھولیں۔",
+    "officialWebsite": "سرکاری ویب سائٹ",
+    "contribute": "اس ریکارڈ کو بہتر بنائیں",
+    "accuracyNote": "OpenFlightClaims قانونی مشورہ نہیں ہے۔ لنکس تبدیل ہو سکتے ہیں — ایئر لائن کی سرکاری ویب سائٹ پر تصدیق کریں۔"
+  },
+  "guides": {
+    "eyebrow": "سرکاری ذرائع کی گائیڈ",
+    "backToDirectory": "← ڈائریکٹری پر واپس جائیں",
+    "disclaimer": "یہ گائیڈ سرکاری ذرائع پر مبنی خلاصہ ہے۔ قانونی مشورہ نہیں ہے۔ قوانین تبدیل ہو سکتے ہیں۔",
+    "officialSources": "سرکاری ذرائع"
+  },
+  "tools": {
+    "eyebrow": "مقامی ٹول",
+    "eligibilityTitle": "اہلیت معاون",
+    "eligibilityDescription": "عام فلائٹ میں خلل کے منظرناموں کے لیے محتاط معاون۔ کوئی ڈیٹا محفوظ نہیں کرتا۔",
+    "claimTemplateTitle": "کلیم جنریٹر",
+    "claimTemplateDescription": "اپنے براؤزر میں کلیم پیغام بنائیں اور اسے ایئر لائن کے سرکاری صفحہ پر کاپی کریں۔",
+    "noStorageDisclaimer": "OpenFlightClaims کو کچھ نہیں بھیجا جاتا۔ معاون آپ کے براؤزر میں چلتا ہے۔",
+    "templateDisclaimer": "یہ جنریٹر ای میل نہیں بھیجتا اور ذاتی ڈیٹا محفوظ نہیں کرتا۔",
+    "region": "ضابطہ کا علاقہ",
+    "disruptionType": "خلل کی قسم",
+    "airline": "ایئر لائن",
+    "selectAirline": "ایئر لائن منتخب کریں",
+    "departureRegion": "روانگی کا علاقہ",
+    "arrivalRegion": "آمد کا علاقہ",
+    "delayLength": "آخری آمد پر تاخیر",
+    "distanceBand": "فاصلے کی حد",
+    "reason": "ایئر لائن کی بتائی گئی وجہ",
+    "other": "دیگر",
+    "delay": "تاخیر",
+    "cancellation": "منسوخی",
+    "deniedBoarding": "بورڈنگ سے انکار",
+    "downgrade": "درجہ کم",
+    "baggageOther": "سامان / دیگر",
+    "underTwoHours": "2 گھنٹے سے کم",
+    "twoToThreeHours": "2 سے 3 گھنٹے",
+    "threeToFourHours": "3 سے 4 گھنٹے",
+    "fourPlusHours": "4+ گھنٹے",
+    "under1500": "1,500 کلومیٹر سے کم",
+    "between1500And3500": "1,500–3,500 کلومیٹر",
+    "over3500": "3,500 کلومیٹر سے زیادہ",
+    "airlineControl": "ایئر لائن کے کنٹرول میں",
+    "extraordinary": "غیر معمولی حالات",
+    "safety": "حفاظتی مسئلہ",
+    "unknown": "نامعلوم",
+    "likely": "ممکن",
+    "possibly": "شاید",
+    "unlikely": "غیر ممکن",
+    "passengerName": "مسافر کا نام (اختیاری)",
+    "flightNumber": "فلائٹ نمبر",
+    "bookingReference": "بکنگ حوالہ (اختیاری)",
+    "travelDate": "سفر کی تاریخ",
+    "route": "راستہ",
+    "scheduledArrival": "طے شدہ آمد",
+    "actualArrival": "حقیقی آمد",
+    "shortDescription": "مختصر وضاحت",
+    "requestedOutcome": "مطلوبہ نتیجہ",
+    "attachments": "منسلکات",
+    "generatedMessage": "تیار کردہ پیغام",
+    "copy": "پیغام کاپی کریں",
+    "clear": "صاف کریں",
+    "copied": "کلپ بورڈ پر کاپی ہو گیا۔"
+  }
+}

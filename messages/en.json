@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "OpenFlightClaims",
+    "description": "Free open community directory of official airline claim links."
+  },
+  "hero": {
+    "title": "Find official airline claim links",
+    "lede": "Community Managed. Fully Open Source."
+  },
+  "stats": {
+    "indexed": "{count} airline claim links · Community maintained · Open source"
+  },
+  "search": {
+    "label": "Search airlines",
+    "placeholder": "Search by airline name, code, or country",
+    "indexed": "{count} airline links listed",
+    "match": "{count} match",
+    "matches": "{count} matches",
+    "statusFilter": "Status",
+    "allStatuses": "All"
+  },
+  "empty": {
+    "title": "Find an airline claim link",
+    "description": "Results appear here after you search.",
+    "noMatchesTitle": "No matching airlines",
+    "noMatchesDescription": "Try another name or open an issue to add a missing link."
+  },
+  "actions": {
+    "openClaim": "Open claim link",
+    "reportBroken": "Report broken link",
+    "suggestUpdate": "Suggest update",
+    "addAirline": "Add a missing airline",
+    "viewDetails": "Details"
+  },
+  "notice": {
+    "text": "Links should be checked against the airline's official website before use. OpenFlightClaims is not legal advice."
+  },
+  "status": {
+    "active": "Active",
+    "reportedBroken": "Reported broken",
+    "unknownStatus": "Unknown",
+    "activeDescription": "Available in the directory.",
+    "reportedBrokenDescription": "Flagged as broken or outdated.",
+    "unknownDescription": "Unclear status or needs review."
+  },
+  "footer": {
+    "description": "OpenFlightClaims is an open community directory of official airline claim links.",
+    "github": "GitHub",
+    "addAirline": "Add airline",
+    "reportBroken": "Report broken",
+    "contributing": "Contributing",
+    "translations": "Translate",
+    "api": "API",
+    "license": "License",
+    "trademarks": "Trademarks"
+  },
+  "theme": {
+    "label": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "nav": {
+    "guides": "Guides",
+    "eligibility": "Eligibility helper",
+    "claimTemplate": "Claim template"
+  },
+  "home": {
+    "popularTitle": "Popular airlines"
+  },
+  "airlineDetail": {
+    "backToDirectory": "← Back to directory",
+    "claimDescription": "Open the official airline page for compensation claims, refunds, complaints, or passenger rights.",
+    "officialWebsite": "Official website",
+    "contribute": "Improve this record",
+    "accuracyNote": "OpenFlightClaims is not legal advice. Links can change — verify against the airline's official website."
+  },
+  "guides": {
+    "eyebrow": "Official-source guide",
+    "backToDirectory": "← Back to directory",
+    "disclaimer": "This guide is a concise summary based on official sources. It is not legal advice, rules can change, and passengers should check the linked official sources.",
+    "officialSources": "Official sources"
+  },
+  "tools": {
+    "eyebrow": "Browser-only tool",
+    "eligibilityTitle": "Eligibility helper",
+    "eligibilityDescription": "A conservative browser-only helper for common flight disruption scenarios. It stores nothing and gives no legal guarantee.",
+    "claimTemplateTitle": "Claim template generator",
+    "claimTemplateDescription": "Build a concise claim message locally in your browser, then copy it into the airline-owned claim page.",
+    "noStorageDisclaimer": "Nothing is submitted to OpenFlightClaims. The helper runs in your browser.",
+    "templateDisclaimer": "This generator does not send email or store personal data.",
+    "region": "Regulation region",
+    "disruptionType": "Disruption type",
+    "airline": "Airline",
+    "selectAirline": "Select an airline",
+    "departureRegion": "Departure region",
+    "arrivalRegion": "Arrival region",
+    "delayLength": "Delay at final arrival",
+    "distanceBand": "Distance band",
+    "reason": "Reason given by airline",
+    "other": "Other",
+    "delay": "Delay",
+    "cancellation": "Cancellation",
+    "deniedBoarding": "Denied boarding",
+    "downgrade": "Downgrade",
+    "baggageOther": "Baggage / other",
+    "underTwoHours": "Under 2 hours",
+    "twoToThreeHours": "2 to 3 hours",
+    "threeToFourHours": "3 to 4 hours",
+    "fourPlusHours": "4+ hours",
+    "under1500": "Under 1,500 km",
+    "between1500And3500": "1,500-3,500 km",
+    "over3500": "Over 3,500 km",
+    "airlineControl": "Airline-controlled issue",
+    "extraordinary": "Extraordinary circumstances",
+    "safety": "Safety-related issue",
+    "unknown": "Unknown",
+    "likely": "Likely",
+    "possibly": "Possibly",
+    "unlikely": "Unlikely",
+    "passengerName": "Passenger name (optional)",
+    "flightNumber": "Flight number",
+    "bookingReference": "Booking reference (optional)",
+    "travelDate": "Date of travel",
+    "route": "Route",
+    "scheduledArrival": "Scheduled arrival",
+    "actualArrival": "Actual arrival",
+    "shortDescription": "Short description",
+    "requestedOutcome": "Requested outcome",
+    "attachments": "Attachments checklist",
+    "generatedMessage": "Generated claim message",
+    "copy": "Copy message",
+    "clear": "Clear form",
+    "copied": "Copied to clipboard."
+  }
+}

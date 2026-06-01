@@ -1,0 +1,31 @@
+name: Update airline link
+description: Suggest a better official link for an existing airline.
+title: "Update airline link: "
+labels: ["data", "airline-link"]
+body:
+  - type: input
+    id: airline_name
+    attributes:
+      label: Airline name
+    validations:
+      required: true
+  - type: input
+    id: current_url
+    attributes:
+      label: Current URL in OpenFlightClaims
+    validations:
+      required: true
+  - type: input
+    id: proposed_url
+    attributes:
+      label: Proposed official URL
+      description: The better official airline page you found.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Why this URL is better.
+    validations:
+      required: false

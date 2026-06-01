@@ -1,0 +1,32 @@
+name: Report broken link
+description: Report an airline claim link that is broken or outdated.
+title: "Report broken link: "
+labels: ["data", "broken-link"]
+body:
+  - type: input
+    id: airline_name
+    attributes:
+      label: Airline name
+    validations:
+      required: true
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+      description: The URL currently shown in OpenFlightClaims.
+    validations:
+      required: true
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Replacement URL (if known)
+      description: A working official airline page, or leave blank.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: What is wrong?
+      description: Error message, redirect, or anything else useful.
+    validations:
+      required: false

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OpenFlightClaims">
+  <rect width="64" height="64" rx="12" fill="#16351e"/>
+  <path d="M13 35h38v6H13z" fill="#f6f7f1"/>
+  <path d="M36 16l16 16H36z" fill="#f6f7f1"/>
+  <path d="M26 16h10v32H26z" fill="#f6f7f1"/>
+</svg>

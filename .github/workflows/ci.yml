@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  schedule:
+    - cron: "18 6 * * 1"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Validate data
+        run: npm run validate:data
+
+      - name: Validate translations
+        run: npm run validate:translations
+
+      - name: Test
+        run: npm run test
+
+      - name: Generate link verification report
+        run: npm run verify:links
+
+      - name: Build
+        run: npm run build
+
+      - name: Run discovery scan
+        run: npm run discover:airlines
+
+      - name: Upload discovery report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: airline-discovery-report
+          path: reports/airline-discovery-report.json
+          if-no-files-found: ignore
+
+      - name: Upload link verification report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-verification-report
+          path: reports/link-verification.json
+          if-no-files-found: ignore

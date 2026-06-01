@@ -1,0 +1,22 @@
+# OpenFlightClaims
+
+> Free, open-source directory of official airline compensation and passenger-rights claim links. No middlemen.
+
+OpenFlightClaims helps passengers find airline-owned claim, refund, and disruption support URLs under EU261 and similar regulations. Community-maintained on GitHub.
+
+## Key pages
+
+- [English](https://openflightclaims.com/en): Primary locale — search airlines and open official claim links
+- [French](https://openflightclaims.com/fr)
+- [Spanish](https://openflightclaims.com/es)
+- [Arabic](https://openflightclaims.com/ar)
+- [Urdu](https://openflightclaims.com/ur)
+
+## Contribute
+
+- [GitHub repository](https://github.com/OWConnoi/OpenFlightClaims)
+- [Contributing guide](https://github.com/OWConnoi/OpenFlightClaims/blob/main/CONTRIBUTING.md)
+
+## What this is not
+
+Not legal advice. Not a claims filing service. Links should be verified on the airline's official site before use.

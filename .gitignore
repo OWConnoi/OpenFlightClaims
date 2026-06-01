@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# Cache
+.cache/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Vercel
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# Reports (generated, not source)
+reports/*.json
+
+# Discovery artifacts
+data/*.candidates.json
+data/*.seed.json
+
+# Agent / design skill folders
+.codex/
+.claude/
+.cursor/
+hallmark/
+.hallmark/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock

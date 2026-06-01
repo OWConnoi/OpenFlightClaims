@@ -1,0 +1,119 @@
+/* Hallmark · macrostructure: Index-First · tone: utilitarian technical · anchor hue: cool-blue
+ * theme: custom (vibe: utilitarian directory · paper oklch(98% 0.003 250) · accent oklch(55% 0.14 250) cool-blue
+ *   display: Cormorant Garamond italic · body: Source Sans 3)
+ * nav: N1 Wordmark + controls · footer: Ft2 Inline single line
+ * genre: editorial · enrichment: none (typography only)
+ * differs from Garden on: accent hue (warm → cool) · display usage (serif-display → minimal) */
+
+:root {
+  --color-paper: oklch(98% 0.003 250);
+  --color-paper-2: oklch(94% 0.005 250);
+  --color-paper-3: oklch(89% 0.006 250);
+  --color-rule: oklch(82% 0.004 250);
+  --color-rule-2: oklch(62% 0.006 250);
+  --color-muted: oklch(44% 0.015 250);
+  --color-neutral: oklch(30% 0.012 250);
+  --color-ink-2: oklch(20% 0.018 250);
+  --color-ink: oklch(12% 0.015 250);
+  --color-accent: oklch(55% 0.14 250);
+  --color-accent-hover: oklch(48% 0.15 250);
+  --color-accent-ink: oklch(98% 0.002 250);
+  --color-focus: oklch(55% 0.14 250);
+  --color-link: oklch(42% 0.08 250);
+
+  --font-display: var(--font-display-family), "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-body: var(--font-body-family), "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: clamp(2rem, 4vw + 1rem, 3.5rem);
+  --text-display-s: clamp(1.5rem, 2.5vw + 1rem, 2.25rem);
+  --text-2xl: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+  --text-xs: 0.78rem;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  --radius-card: 4px;
+  --radius-pill: 4px;
+  --radius-input: 4px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 100ms;
+  --dur-base: 150ms;
+
+  --shadow-card: 0 1px 0 oklch(12% 0.015 250 / 0.04), 0 8px 24px -16px oklch(12% 0.015 250 / 0.08);
+
+  --notice-bg: oklch(95% 0.015 250);
+  --notice-text: oklch(30% 0.02 250);
+  --notice-line: oklch(62% 0.06 250);
+  --active-bg: oklch(93% 0.02 250);
+  --active-text: oklch(28% 0.04 250);
+  --broken-bg: oklch(93% 0.03 30);
+  --broken-text: oklch(38% 0.12 25);
+  --unknown-bg: oklch(91% 0.02 250);
+  --unknown-text: oklch(35% 0.04 250);
+
+  --bg: var(--color-paper);
+  --panel: oklch(99.5% 0.002 250);
+  --panel-soft: var(--color-paper-2);
+  --text: var(--color-ink);
+  --muted: var(--color-muted);
+  --line: var(--color-rule);
+  --accent: var(--color-accent);
+  --accent-hover: var(--color-accent-hover);
+  --link: var(--color-link);
+  --focus: var(--color-focus);
+
+  --site-max: 960px;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --color-paper: oklch(14% 0.008 250);
+  --color-paper-2: oklch(18% 0.01 250);
+  --color-paper-3: oklch(22% 0.012 250);
+  --color-rule: oklch(28% 0.01 250);
+  --color-rule-2: oklch(38% 0.012 250);
+  --color-muted: oklch(72% 0.015 250);
+  --color-neutral: oklch(84% 0.012 250);
+  --color-ink-2: oklch(92% 0.008 250);
+  --color-ink: oklch(97% 0.004 250);
+  --color-accent: oklch(72% 0.12 250);
+  --color-accent-hover: oklch(78% 0.11 250);
+  --color-accent-ink: oklch(16% 0.01 250);
+  --color-focus: oklch(72% 0.12 250);
+  --color-link: oklch(78% 0.08 250);
+
+  --notice-bg: oklch(20% 0.02 250);
+  --notice-text: oklch(88% 0.02 250);
+  --notice-line: oklch(68% 0.08 250);
+  --active-bg: oklch(24% 0.03 250);
+  --active-text: oklch(86% 0.03 250);
+  --broken-bg: oklch(24% 0.04 30);
+  --broken-text: oklch(88% 0.08 25);
+  --unknown-bg: oklch(22% 0.02 250);
+  --unknown-text: oklch(84% 0.03 250);
+
+  --panel: oklch(18% 0.008 250);
+  --panel-soft: var(--color-paper-2);
+  --shadow-card: 0 1px 0 oklch(97% 0.004 250 / 0.06), 0 12px 32px -20px oklch(0% 0 0 / 0.45);
+
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-base: 0ms;
+  }
+}
